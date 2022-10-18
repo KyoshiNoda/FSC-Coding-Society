@@ -5,7 +5,7 @@ function App() {
   return (
     <>
         <NavBar/>
-        <p className='bg-green-600'>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis provident, deleniti id labore cumque mollitia quisquam recusandae. Voluptates officia ab exercitationem vitae hic earum molestias voluptas eaque sed voluptatem.
           Animi dolore, deserunt sunt dolores esse minus quos quae, itaque dignissimos, ut labore temporibus voluptatem provident consectetur necessitatibus tempore. Laboriosam voluptatum totam magni veritatis placeat non quaerat harum est molestiae.
           Cupiditate molestiae facilis accusantium earum perferendis rerum aperiam fugiat dignissimos assumenda tempore provident culpa est nesciunt nemo vitae magnam totam quasi velit, iste id doloribus porro! Laudantium architecto laboriosam in.
