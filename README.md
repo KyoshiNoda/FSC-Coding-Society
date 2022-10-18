@@ -7,8 +7,8 @@ Tech Stack
 - Headless UI
 
 ## Back End
--Express/Node
--PostgreSQL
+- Express/Node
+- PostgreSQL
 
 # Getting Started with Create React App
 
