@@ -4,7 +4,7 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+      <nav class="flex items-center justify-between flex-wrap bg-white p-6">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <img className = "max-h-24 px-4"src={logo} alt = "logo"></img>
           <span class="font-semibold text-xl tracking-tight">ACM FSC</span>
@@ -28,21 +28,21 @@ export default function Navbar({ fixed }) {
             <div class="text-3xl lg:flex-grow">
             <a
               href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+              class="block mt-4 lg:inline-block lg:mt-0 text-green-500 hover:text-white mr-4 font-bold px-2"
             >
               News
             </a>
             <a
               href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+              class="block mt-4 lg:inline-block lg:mt-0 text-green-500 hover:text-white mr-4 font-bold px-2"
             >
               Events
             </a>
             <a
               href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+              class="block mt-4 lg:inline-block lg:mt-0 text-green-500 hover:text-white font-bold px-2"
             >
-              Executive Team
+              Executives
             </a>
           </div>
           </div>
