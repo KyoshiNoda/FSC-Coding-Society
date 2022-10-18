@@ -1,3 +1,15 @@
+# ACM Website
+Currently building the ACM FSC Website
+Tech Stack
+## Front End
+- React
+- Tailwind CSS
+- Headless UI
+
+## Back End
+-Express/Node
+-PostgreSQL
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
