@@ -3,8 +3,7 @@ import Example from './components/Example';
 import NavBar from './components/Navbar';
 function App() {
   return (
-    <div className='flex justify-center'>
-      <div>
+    <>
         <NavBar/>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis provident, deleniti id labore cumque mollitia quisquam recusandae. Voluptates officia ab exercitationem vitae hic earum molestias voluptas eaque sed voluptatem.
@@ -38,8 +37,7 @@ function App() {
           Quia sapiente, cupiditate, ut cumque beatae consequuntur maxime cum, quidem iste soluta nulla vitae. Similique et doloribus quo dolorum, in, vero natus repudiandae, ducimus aspernatur quasi culpa. Mollitia, nam quo!
           Excepturi voluptas ea quibusdam repellat enim hic fugit sit unde in asperiores, ad rem eligendi quisquam laudantium assumenda quas! Iure consequuntur illum harum enim dolores veniam amet repellat facilis eum!
         </p>
-      </div>
-    </div>
+    </>
   );
 }
 
