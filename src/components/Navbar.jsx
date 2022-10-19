@@ -15,7 +15,7 @@ export default function Navbar({ fixed }) {
         </a>
 
         <div className=" flex">
-                <DropDownMenu hidden = "lg:hidden"/>
+            <DropDownMenu/>
           {/* <button 
             className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
             <svg
@@ -35,19 +35,19 @@ export default function Navbar({ fixed }) {
             <div className="text-3xl lg:flex-grow"> 
               <a
                 href="#responsive-header"
-                className="flex justify-end mt-4 lg:inline-block text-white hover:text-green-900 mr-4 font-bold px-2"
+                className="hidden lg:visible justify-end mt-4 lg:inline-block text-white hover:text-green-900 mr-4 font-bold px-2"
               >
                 News
               </a>
               <a
                 href="#responsive-header"
-                className="flex justify-end mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-900 mr-4 font-bold px-2"
+                className="hidden lg:visible justify-end mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-900 mr-4 font-bold px-2"
               >
                 Events
               </a>
               <a
                 href="#responsive-header"
-                className="flex justify-end mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-900 font-bold px-2"
+                className="hidden lg:visible justify-end mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-900 font-bold px-2"
               >
                 Executives
               </a>
