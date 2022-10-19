@@ -35,39 +35,17 @@ const DropDownMenu = () => {
                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                   > 
                     {active ? (
-                      <EditActiveIcon
+                      <EventsActiveIcon
                         className="mr-2 h-5 w-5"
                         aria-hidden="true"
                       />
                     ) : (
-                      <EditInactiveIcon
+                      <EventsInactiveIcon
                         className="mr-2 h-5 w-5"
                         aria-hidden="true"
                       />
                     )}
-                    Edit
-                  </button>
-                )}
-              </Menu.Item>
-              <Menu.Item>
-                {({ active }) => (
-                  <button
-                    className={`${
-                      active ? 'bg-green-500 text-white' : 'text-gray-900'
-                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                  >
-                    {active ? (
-                      <DuplicateActiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    ) : (
-                      <DuplicateInactiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    )}
-                    Duplicate
+                    News
                   </button>
                 )}
               </Menu.Item>
@@ -91,29 +69,7 @@ const DropDownMenu = () => {
                         aria-hidden="true"
                       />
                     )}
-                    Archive
-                  </button>
-                )}
-              </Menu.Item>
-              <Menu.Item>
-                {({ active }) => (
-                  <button
-                    className={`${
-                      active ? 'bg-green-500 text-white' : 'text-gray-900'
-                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                  >
-                    {active ? (
-                      <MoveActiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    ) : (
-                      <MoveInactiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    )}
-                    Move
+                    Events
                   </button>
                 )}
               </Menu.Item>
@@ -127,17 +83,17 @@ const DropDownMenu = () => {
                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                   >
                     {active ? (
-                      <DeleteActiveIcon
+                      <ExecutivesActiveIcon
                         className="mr-2 h-5 w-5 text-green-400"
                         aria-hidden="true"
                       />
                     ) : (
-                      <DeleteInactiveIcon
+                      <ExecutivesInactiveIcon
                         className="mr-2 h-5 w-5 text-green-400"
                         aria-hidden="true"
                       />
                     )}
-                    Delete
+                    Executives
                   </button>
                 )}
               </Menu.Item>
@@ -149,7 +105,7 @@ const DropDownMenu = () => {
   )
 }
 
-function EditInactiveIcon(props) {
+function EventsInactiveIcon(props) {
   return (
     <svg
       {...props}
@@ -167,7 +123,7 @@ function EditInactiveIcon(props) {
   )
 }
 
-function EditActiveIcon(props) {
+function EventsActiveIcon(props) {
   return (
     <svg
       {...props}
@@ -177,54 +133,6 @@ function EditActiveIcon(props) {
     >
       <path
         d="M4 13V16H7L16 7L13 4L4 13Z"
-        fill="#80ed99"
-        stroke="#2d6a4f"
-        strokeWidth="2"
-      />
-    </svg>
-  )
-}
-
-function DuplicateInactiveIcon(props) {
-  return (
-    <svg
-      {...props}
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M4 4H12V12H4V4Z"
-        fill="#fcfffc"
-        stroke="#80ed99"
-        strokeWidth="2"
-      />
-      <path
-        d="M8 8H16V16H8V8Z"
-        fill="#fcfffc"
-        stroke="#80ed99"
-        strokeWidth="2"
-      />
-    </svg>
-  )
-}
-
-function DuplicateActiveIcon(props) {
-  return (
-    <svg
-      {...props}
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M4 4H12V12H4V4Z"
-        fill="#80ed99"
-        stroke="#2d6a4f"
-        strokeWidth="2"
-      />
-      <path
-        d="M8 8H16V16H8V8Z"
         fill="#80ed99"
         stroke="#2d6a4f"
         strokeWidth="2"
@@ -295,37 +203,7 @@ function ArchiveActiveIcon(props) {
   )
 }
 
-function MoveInactiveIcon(props) {
-  return (
-    <svg
-      {...props}
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path d="M10 4H16V10" stroke="#80ed99" strokeWidth="2" />
-      <path d="M16 4L8 12" stroke="#80ed99" strokeWidth="2" />
-      <path d="M8 6H4V16H14V12" stroke="#80ed99" strokeWidth="2" />
-    </svg>
-  )
-}
-
-function MoveActiveIcon(props) {
-  return (
-    <svg
-      {...props}
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path d="M10 4H16V10" stroke="#2d6a4f" strokeWidth="2" />
-      <path d="M16 4L8 12" stroke="#2d6a4f" strokeWidth="2" />
-      <path d="M8 6H4V16H14V12" stroke="#2d6a4f" strokeWidth="2" />
-    </svg>
-  )
-}
-
-function DeleteInactiveIcon(props) {
+function ExecutivesInactiveIcon(props) {
   return (
     <svg
       {...props}
@@ -348,7 +226,7 @@ function DeleteInactiveIcon(props) {
   )
 }
 
-function DeleteActiveIcon(props) {
+function ExecutivesActiveIcon(props) {
   return (
     <svg
       {...props}
