@@ -1,5 +1,5 @@
 import React from 'react';
-import Example from './components/Example';
+import DropDownMenu from './components/DropDownMenu';
 import NavBar from './components/Navbar';
 function App() {
   return (
