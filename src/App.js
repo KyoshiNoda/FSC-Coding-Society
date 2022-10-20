@@ -1,10 +1,12 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
+import BenefitsBox from './components/BenefitsBox/BenefitsBox';
 function App() {
   return (
     <>
-      <Navbar/>
-      <p>
+      {/* <Navbar/> */}
+      <BenefitsBox/>
+      {/* <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis provident, deleniti id labore cumque mollitia quisquam recusandae. Voluptates officia ab exercitationem vitae hic earum molestias voluptas eaque sed voluptatem.
         Animi dolore, deserunt sunt dolores esse minus quos quae, itaque dignissimos, ut labore temporibus voluptatem provident consectetur necessitatibus tempore. Laboriosam voluptatum totam magni veritatis placeat non quaerat harum est molestiae.
         Cupiditate molestiae facilis accusantium earum perferendis rerum aperiam fugiat dignissimos assumenda tempore provident culpa est nesciunt nemo vitae magnam totam quasi velit, iste id doloribus porro! Laudantium architecto laboriosam in.
@@ -35,7 +37,7 @@ function App() {
         Porro maiores optio provident earum accusantium voluptatem quae eligendi voluptas neque, cupiditate, perferendis, error vero. Deleniti debitis odit asperiores, facere eveniet quam eum natus quasi ab neque, incidunt dolor odio.
         Quia sapiente, cupiditate, ut cumque beatae consequuntur maxime cum, quidem iste soluta nulla vitae. Similique et doloribus quo dolorum, in, vero natus repudiandae, ducimus aspernatur quasi culpa. Mollitia, nam quo!
         Excepturi voluptas ea quibusdam repellat enim hic fugit sit unde in asperiores, ad rem eligendi quisquam laudantium assumenda quas! Iure consequuntur illum harum enim dolores veniam amet repellat facilis eum!
-      </p>
+      </p> */}
     </>
   );
 }
