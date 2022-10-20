@@ -1,7 +1,7 @@
 import React from "react";
 import DropDownMenu from "./DropDownMenu";
 import Logo from "./Logo";
-import NavItem from "./NavItems";
+import NavItem from "./NavItem";
 function Navbar({ fixed }) {
 
   const [navbarOpen, setNavbarOpen] = React.useState(false);
