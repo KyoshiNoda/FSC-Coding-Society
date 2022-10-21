@@ -13,6 +13,6 @@ function BenefitsItem(props) {
         </div>
     </div>
   )
-}
+} 
 
 export default BenefitsItem

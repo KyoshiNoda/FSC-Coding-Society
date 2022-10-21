@@ -4,7 +4,7 @@ import BenefitsBox from './components/BenefitsBox/BenefitsBox';
 function App() {
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar/>
       <BenefitsBox/>
       {/* <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis provident, deleniti id labore cumque mollitia quisquam recusandae. Voluptates officia ab exercitationem vitae hic earum molestias voluptas eaque sed voluptatem.
