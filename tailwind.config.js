@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      'hero': "url('./public/images/farmingdale-state-college.jpg')",
+
     },
   },
   plugins: [],
