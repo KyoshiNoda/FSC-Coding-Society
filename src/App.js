@@ -2,11 +2,13 @@ import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import BenefitsBox from './components/BenefitsBox/BenefitsBox';
 import Socials from './components/Socials/Socials';
+import Hero from './components/Hero/Hero';
 function App() {
   return (
     <>
       <Navbar/>
       <BenefitsBox/>
+      {/* <Hero/> */}
       <Socials/>
       {/* <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis provident, deleniti id labore cumque mollitia quisquam recusandae. Voluptates officia ab exercitationem vitae hic earum molestias voluptas eaque sed voluptatem.

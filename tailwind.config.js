@@ -4,7 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      'hero': "url('./public/images/farmingdale-state-college.jpg')",
+    },
   },
   plugins: [],
 }
