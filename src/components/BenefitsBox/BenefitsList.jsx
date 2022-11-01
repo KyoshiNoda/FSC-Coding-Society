@@ -1,5 +1,5 @@
 import React from 'react';
-import BenefitsItem from './BenefitsItem';
+
 
 function BenefitsList() {
   return (

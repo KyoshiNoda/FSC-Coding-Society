@@ -16,7 +16,7 @@ function Hero() {
                 </button>
             </div>
         </div>
-        <BenefitsBox/>
+        {/* <BenefitsBox/> */}
     </div>
   )
 }

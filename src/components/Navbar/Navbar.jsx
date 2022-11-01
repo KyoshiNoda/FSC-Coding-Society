@@ -3,8 +3,6 @@ import DropDownMenu from "./DropDownMenu";
 import Logo from "./Logo";
 import NavItem from "./NavItem";
 function Navbar({ fixed }) {
-
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
       <nav className="flex items-center justify-between flex-wrap bg-green-600 p-4">
