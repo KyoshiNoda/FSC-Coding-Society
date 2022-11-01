@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
+import SearchBar from './SearchBar/SearchBar'
 function Events() {
   return (
     <div className='flex-col'>
       <Navbar/>
-      Event
+      <SearchBar/>
     </div>
   )
 }
