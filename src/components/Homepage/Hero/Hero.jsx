@@ -1,8 +1,8 @@
 import React from 'react'
 import BenefitsBox from '../BenefitsBox/BenefitsBox'
-function Hero() {
+function Hero() { 
   return (
-    <div className=' bg-hero flex justify-center bg-auto items-end h-96 bg-no-repeat bg-center shadow-inner'>
+    <div className=' bg-hero flex justify-center bg-cover items-end h-96 bg-no-repeat bg-center shadow-inner'>
         <div className='flex-col align-bottom'>
             <div className='text-white font-bold text-3xl'>
                 Support your technological interests.<br/>

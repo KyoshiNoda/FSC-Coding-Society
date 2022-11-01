@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../../imgs/acmctc-logo.png';
+import logo from '../../imgs/acmctc-logo.png';
 function Logo() {
   return (
     <a href = "#homepage">

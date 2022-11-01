@@ -1,8 +1,11 @@
 import React from 'react'
-
+import Navbar from '../Navbar/Navbar'
 function Events() {
   return (
-    <div>Events</div>
+    <div className='flex-col'>
+      <Navbar/>
+      Event
+    </div>
   )
 }
 

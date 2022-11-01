@@ -1,10 +1,10 @@
 import React from "react";
 import DropDownMenu from "./DropDownMenu";
 import Logo from "./Logo";
-import NavItem from "./NavItem";
+import NavItem from "./NavItem"; 
 function Navbar({ fixed }) {
   return (
-    <>
+    <div>
       <nav className="flex items-center justify-between flex-wrap bg-green-600 p-4">
           <Logo/>
           <DropDownMenu/>
@@ -19,7 +19,7 @@ function Navbar({ fixed }) {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
-function Socials() {
+function Socials() { 
   return (
     <div className='flex justify-center'>
       <SocialIcon url = "https://discord.gg/bq2QWDC96W"/>

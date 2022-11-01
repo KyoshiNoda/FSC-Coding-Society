@@ -37,6 +37,7 @@ function BenefitsList() {
           Project collaboration with peers that share the similar goals and interests.
         </div>
       </div>
+      
     </div>
     
   )
