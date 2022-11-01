@@ -2,9 +2,9 @@ import React from 'react'
 import BenefitsBox from '../BenefitsBox/BenefitsBox'
 function Hero() {
   return (
-    <div className='flex justify-center bg-[url("https://www.farmingdale.edu/digital-swag/images/desktop-wallpaper/wallpaper-photo-ward.jpg")] shadow bg-color-black'>
+    <div className=' bg-[url("../imgs/rambassadors-header.png")] flex justify-center bg-auto items-end h-96 bg-no-repeat bg-center shadow-inner'>
         <div className='flex-col align-bottom'>
-            <div className='text-white font-bold bg-green-900'>
+            <div className='text-white font-bold text-3xl'>
                 Support your technological interests.<br/>
                 Expand your computer knowledge.<br/>
                 Explore and Innovate.<br/>
