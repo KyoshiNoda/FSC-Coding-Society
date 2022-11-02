@@ -1,10 +1,13 @@
 import React from 'react'
-
+import Navbar from '../components/Navbar/Navbar'
 function NotFound() {
   return (
-    <div className='flex justify-center'>
+    <>
+    <Navbar/>
+      <div className='flex justify-center'>
         ERROR 404: PAGE NOT FOUND
-    </div>
+      </div>
+    </>
   )
 }
 

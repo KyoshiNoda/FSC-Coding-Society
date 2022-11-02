@@ -3,7 +3,7 @@ import logo from '../../imgs/acmctc-logo.png';
 function Logo() {
   return (
     <a href = "/">
-    <div className="flex items-center flex-shrink-0 text-white hover:text-green-900 mr-6">
+    <div className="flex items-center flex-shrink-0 hover:text-green-700 mr-6">
       <div>
         <img className="max-h-24 px-4" src={logo} alt="logo"></img>
       </div>

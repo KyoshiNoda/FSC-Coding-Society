@@ -6,7 +6,7 @@ import NavItem from "./NavItem";
 function Navbar({ fixed }) {
   return (
     <div>
-      <nav className="flex items-center justify-between flex-wrap bg-green-600 p-4">
+      <nav className="flex items-center justify-between flex-wrap p-4">
           <Logo/>
           <DropDownMenu/>
           <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
