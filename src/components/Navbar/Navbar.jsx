@@ -1,7 +1,8 @@
 import React from "react";
 import DropDownMenu from "./DropDownMenu";
 import Logo from "./Logo";
-import NavItem from "./NavItem"; 
+import NavItem from "./NavItem";
+
 function Navbar({ fixed }) {
   return (
     <div>
@@ -12,9 +13,9 @@ function Navbar({ fixed }) {
           <div className="text-3xl lg:flex-grow"></div>
           <div>
             <div className="text-3xl lg:flex-grow"> 
-              <NavItem text = "News"/>
-              <NavItem text = "Events"/>
-              <NavItem text = "Executives"/>
+              <NavItem text = "News" route = "/News"/>
+              <NavItem text = "Events" route = "/Events"/>
+              <NavItem text = "Executives" route = "/Executives"/>
             </div>
           </div>
         </div>

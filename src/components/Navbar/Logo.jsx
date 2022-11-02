@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../imgs/acmctc-logo.png';
 function Logo() {
   return (
-    <a href = "#homepage">
+    <a href = "/">
     <div className="flex items-center flex-shrink-0 text-white hover:text-green-900 mr-6">
       <div>
         <img className="max-h-24 px-4" src={logo} alt="logo"></img>

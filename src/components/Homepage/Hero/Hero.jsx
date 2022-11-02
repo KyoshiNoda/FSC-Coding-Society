@@ -1,5 +1,4 @@
-import React from 'react'
-import BenefitsBox from '../BenefitsBox/BenefitsBox'
+import React from 'react';
 function Hero() { 
   return (
     <div className=' bg-hero flex justify-center bg-cover items-end h-96 bg-no-repeat bg-center shadow-inner'>
