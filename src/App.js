@@ -1,12 +1,17 @@
 import React from "react";
-import Homepage from "./components/Homepage/Homepage";
-import Event from "./components/Events/Events";
-import News from "./components/News/News";
+import {Routes,Route} from 'react-router-dom';
+import Homepage from "./pages/Homepage";
+import Events from "./pages/Events";
+import News from './pages/News';
+import Executives from './pages/Executives';
 function App() {
   return (
-    <>
-      <Event />
-    </>
+    <Routes>
+      <Route path="/" element = {<Homepage/>}/>
+      <Route path="/Events" element = {<Events/>}/>
+      <Route path ="/News" element = {<News/>}/>
+      <Route path = "/Executives" element = {<Executives/>}/>
+    </Routes>
   );
 }
 

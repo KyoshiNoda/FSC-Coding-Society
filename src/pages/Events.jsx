@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
-import SearchBar from "./SearchBar/SearchBar";
+import Navbar from "../components/Navbar/Navbar";
+import SearchBar from '../components/Events/SearchBar/SearchBar';
 function Events() {
   return (
     <div className="">
