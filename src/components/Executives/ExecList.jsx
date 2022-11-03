@@ -1,14 +1,12 @@
 import React from 'react'
-
+import ExecItem from './ExecItem'
 function ExecList() {
   return (
     <div>
-        <ul>
-            <li>Carlos Duque Rivera</li>
-            <li>PENDING</li>
-            <li>Mazen Kapadi</li>
-            <li>Christopher Kahles</li>
-        </ul>
+        <ExecItem/>
+        <ExecItem/>
+        <ExecItem/>
+        <ExecItem/>
     </div>
   )
 }
