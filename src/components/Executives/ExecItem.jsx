@@ -1,16 +1,17 @@
 import React from "react";
-import logo from "../../imgs/acmctc-logo.png";
-function ExecItem() {
+// import logo from "../../imgs/acmctc-logo.png";
+function ExecItem(props) {
   return (
     <div class="bg-green-500 max-w-sm rounded overflow-hidden shadow-lg">
-      <img class="w-full" src={logo} alt="Sunset in the mountains" />
+      <div className="flex justify-center">
+      <img class="w-1/2" src={props.picture} alt="exec" />
+      </div>
+
       <div class="px-6 py-4">
-        <div class="font-bold text-2xl mb-2">John Doe</div>
-        <div class = "text-white font-bold text-xl mb-2">ROLE</div>
+        <div class="font-bold text-2xl mb-2">{props.name}</div>
+        <div class = "text-white font-bold text-xl mb-2">{props.role}</div>
         <p class="text-gray-700 text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
-          nihil.
+          {props.text}
         </p>
       </div>
     </div>

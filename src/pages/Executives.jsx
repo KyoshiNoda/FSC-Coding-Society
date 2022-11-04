@@ -5,7 +5,7 @@ function Executives() {
   return (
     <div>
       <Navbar/>
-      <div className='flex justify-center'>
+      <div className='flex justify-center m-11'>
         <ExecList/>
       </div>
     </div>
