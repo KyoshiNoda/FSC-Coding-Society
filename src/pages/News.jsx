@@ -11,6 +11,9 @@ function News() {
         <NewsItem title = "News Title #1" text = {lorem}/>
         <NewsItem title = "News Title #2" text = {lorem}/>
         <NewsItem title = "News Title #3" text = {lorem}/>
+        <NewsItem title = "News Title #4" text = {lorem}/>
+        <NewsItem title = "News Title #5" text = {lorem}/>
+        <NewsItem title = "News Title #6" text = {lorem}/>
       </div>
     </div>
   )

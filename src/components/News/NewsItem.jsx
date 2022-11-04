@@ -2,7 +2,7 @@ import React from 'react'
 
 function NewsItem(props) {
   return (
-    <div className='flex flex-col w-72 h-72 rounded bg-slate-500 text-white '>
+    <div className='flex flex-col w-72 h-72 rounded bg-green-900 text-white '>
       <div className=' text-center font-bold text-2xl'>
         {props.title}
       </div>

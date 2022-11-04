@@ -19,6 +19,10 @@ function Events() {
           <EventItem text = {lorem}/>
           <EventItem text = {lorem}/>
         </div>
+        <div className="flex gap-7">
+          <EventItem text = {lorem}/>
+          <EventItem text = {lorem}/>
+        </div>
       </div>
     </>
   );

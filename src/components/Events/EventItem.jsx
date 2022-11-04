@@ -2,12 +2,14 @@ import React from 'react'
 
 function EventItem(props) {
   return (
-    <div className="bg-green-600 rounded text-white">
+    <div className="bg-green-600 rounded h-40 text-white">
         <div className="flex justify-center text-2xl">Title</div>
         <div>
             {props.text}
             <div className="flex justify-center">
-                <u>Learn More</u>
+            <a href = "#test1">
+                <u>Read More</u>
+            </a>
             </div>
         </div>
     </div>
