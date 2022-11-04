@@ -1,47 +1,23 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
-import SearchBar from "../components/Events/SearchBar/SearchBar";
+import SearchBar from "../components/Events/SearchBar";
 import MainEvent from "../components/Events/MainEvent";
+import EventItem from "../components/Events/EventItem";
 function Events() {
+  let lorem = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos esse non ratione quam minima, 
+  vero nesciunt, quisquam accusamus voluptate voluptatibus, sequi itaque rem incidunt autem! Molestias vitae assumenda dolorem sed.`;
   return (
     <>
       <Navbar />
       <SearchBar />
-      <MainEvent/>
-      
-      <div className="flex">
-        <div className="bg-red-600 ">
-          <div className="flex justify-center text-2xl">
-            Title
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            odit illum, autem ipsam ut facere nisi est numquam, culpa itaque
-            neque doloremque ullam delectus eveniet recusandae porro explicabo
-            amet. Perspiciatis! Dicta ipsum facere illum, tenetur officia culpa
-            odio neque sed et delectus autem, ea maxime a asperiores eius
-            recusandae, incidunt quisquam excepturi quasi temporibus assumenda?
-            Sunt minima dolore itaque eaque!
-            <div className="flex justify-center">
-              <u>Learn More</u>
-            </div>
-          </div>
-        </div>
-
+      <div className="flex flex-col gap-y-11 m-11">
         <div>
-          <div className="flex justify-center">Title</div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            odit illum, autem ipsam ut facere nisi est numquam, culpa itaque
-            neque doloremque ullam delectus eveniet recusandae porro explicabo
-            amet. Perspiciatis! Dicta ipsum facere illum, tenetur officia culpa
-            odio neque sed et delectus autem, ea maxime a asperiores eius
-            recusandae, incidunt quisquam excepturi quasi temporibus assumenda?
-            Sunt minima dolore itaque eaque!
-            <div className="flex justify-center">
-              <u>Learn More</u>
-            </div>
-          </div>
+         <MainEvent title = "Main Event Title" text = {lorem}/>
+        </div>
+        
+        <div className="flex gap-7">
+          <EventItem text = {lorem}/>
+          <EventItem text = {lorem}/>
         </div>
       </div>
     </>

@@ -1,9 +1,9 @@
 import React from "react";
 
-function MainEvent() {
+function MainEvent(props) {
   return (
     <div className="flex flex-col h-96 text-white bg-green-900">
-      <div className="flex justify-center text-2xl">Main Event Title</div>
+      <div className="flex justify-center text-2xl">{props.title}</div>
       
       <div className="">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
