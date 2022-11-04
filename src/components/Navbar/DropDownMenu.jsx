@@ -29,7 +29,7 @@ const DropDownMenu = () => {
             <div className="px-1 py-1 ">
               <Menu.Item>
                 {({ active }) => (
-                  <button
+                  <a href = "/News"
                     className={`${
                       active ? 'bg-green-500 text-white' : 'text-gray-900'
                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
@@ -46,14 +46,14 @@ const DropDownMenu = () => {
                       />
                     )}
                     News
-                  </button>
+                  </a>
                 )}
               </Menu.Item>
             </div>
             <div className="px-1 py-1">
               <Menu.Item>
                 {({ active }) => (
-                  <button
+                  <a href = "/Events"
                     className={`${
                       active ? 'bg-green-500 text-white' : 'text-gray-900'
                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
@@ -70,14 +70,14 @@ const DropDownMenu = () => {
                       />
                     )}
                     Events
-                  </button>
+                  </a>
                 )}
               </Menu.Item>
             </div>
             <div className="px-1 py-1">
               <Menu.Item>
                 {({ active }) => (
-                  <button
+                  <a href = "/Executives"
                     className={`${
                       active ? 'bg-green-500 text-white' : 'text-gray-900'
                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
@@ -94,7 +94,7 @@ const DropDownMenu = () => {
                       />
                     )}
                     Executives
-                  </button>
+                  </a>
                 )}
               </Menu.Item>
             </div>
