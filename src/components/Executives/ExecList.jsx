@@ -7,8 +7,7 @@ function ExecList() {
   nihil.`;
   
   return (
-    <div className="flex flex-col gap-y-10">
-      <div className="flex gap-10">
+    <div className="flex gap-11 flex-wrap">
         <ExecItem 
           name = "John Doe" 
           role = "President"
@@ -21,9 +20,6 @@ function ExecList() {
           text = {lorem}
           picture = {logo}
         />
-      </div>
-
-      <div className="flex gap-10">
         <ExecItem 
           name = "John Doe" 
           role = "Treasurer"
@@ -36,7 +32,6 @@ function ExecList() {
           text = {lorem}
           picture = {logo}
         />
-      </div>
     </div>
   );
 }

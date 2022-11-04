@@ -5,11 +5,13 @@ import Hero from '../components/Homepage/Hero/Hero';
 import Socials from '../components/Homepage/Socials/Socials'
 const Homepage  = () => {
   return (
-    <div classname = 'flex-col space-y-11'>
+    <div>
       <Navbar />
-      <Hero />
-      <BenefitsBox />
-      <Socials />
+      <div className="flex flex-col gap-y-6">
+        <Hero />
+        <BenefitsBox />
+        <Socials />
+      </div>
     </div>
   );
 }
