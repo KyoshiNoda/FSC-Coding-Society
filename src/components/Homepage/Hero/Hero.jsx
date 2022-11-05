@@ -1,7 +1,7 @@
 import React from 'react';
 function Hero() { 
   return (
-    <div className=' bg-hero flex justify-center bg-cover items-end h-screen bg-no-repeat bg-center shadow-inner'>
+    <div className=' bg-hero1 flex justify-center bg-cover items-end h-screen bg-no-repeat bg-center shadow-inner'>
         <div className='flex flex-col'>
             <div className='text-white font-bold text-5xl'>
                 Support your technological interests.<br/>
