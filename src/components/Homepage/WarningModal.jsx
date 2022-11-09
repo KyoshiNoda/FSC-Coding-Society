@@ -1,7 +1,7 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 
-const WarningModal = () => {
+const WarningModal = (props) => {
   let [isOpen, setIsOpen] = useState(true);
 
   function closeModal() {
@@ -40,43 +40,10 @@ const WarningModal = () => {
                     as="h3"
                     className="text-lg font-medium leading-6 text-gray-900"
                   >
-                    Known Issue!
+                    {props.title}
                   </Dialog.Title>
                   <div className="mt-2">
-                    <p className="text-sm text-gray-500">
-                      Currently Netlify is only rendering the
-                      homepage!<br/>
-                      Run the following commands:
-                      <ol>
-                        <li>
-                          1){" "}
-                          <code>
-                            <span className="text-blue-600">git clone</span>
-                          </code>{" "}
-                          this repo!
-                        </li>
-                        <li>
-                          2){" "}
-                          <code>
-                            <span className="text-blue-600">npm install</span>
-                          </code>{" "}
-                        </li>
-                        <li>
-                          3) run{" "}
-                          <code>
-                            <span className="text-blue-600">npm start</span>
-                          </code> {" "}
-                            to view project
-                        </li>
-                        <li>
-                          4){" "}
-                          <code>
-                            <span className="text-blue-600">git pull</span>
-                          </code>{" "}
-                          each time you open the project again!
-                        </li>
-                      </ol>
-                    </p>
+                    {props.body}
                   </div>
 
                   <div className="flex justify-center mt-4">
