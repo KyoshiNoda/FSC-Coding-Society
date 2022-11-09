@@ -6,8 +6,8 @@ import YoutubeIcon from './Icons/YoutubeIcon';
 import DiscordIcon from './Icons/DiscordIcon';
 function Socials() { 
   return (
-    <div className=' bg-social flex flex-col bg-cover h-96 bg-no-repeat bg-top space-y-20 p-6'>
-      <div className = 'flex justify-center text-white font-bold text-4xl items-start'>
+    <div className=' bg-social flex flex-col bg-cover h-full bg-no-repeat bg-top space-y-20 p-6'>
+      <div className = 'flex justify-center text-white font-bold text-2xl md:text-4xl items-start'>
         <u>Social Media and more info</u>
       </div>
       <div className='flex justify-center flex-wrap gap-8 items-center'>

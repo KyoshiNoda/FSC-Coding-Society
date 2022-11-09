@@ -9,7 +9,7 @@ const Homepage  = () => {
       <Navbar />
       <div className="flex flex-col gap-y-6">
         <Hero />
-        <div className="flex justify-center gap-7">
+        <div className="flex justify-center gap-7 flex-wrap">
           <BenefitsBox />
           <BenefitsBox />
           <BenefitsBox />
