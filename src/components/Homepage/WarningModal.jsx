@@ -40,11 +40,11 @@ const WarningModal = () => {
                     as="h3"
                     className="text-lg font-medium leading-6 text-gray-900"
                   >
-                    Github Pages isn't working!
+                    Known Issue!
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Currently only Github Pages is only rendering the
+                      Currently Netlify is only rendering the
                       homepage!<br/>
                       Run the following commands:
                       <ol>
