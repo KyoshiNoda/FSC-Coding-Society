@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('https://blogs.farmingdale.edu/sites/rambassadors/wp-content/themes/rambassadors/rambassadors-header.jpg')",
-        'hero1': "url('./imgs/hero.png')",
+        'hero': "url('./imgs/hero.png')",
+        'social': "url('./imgs/farmingdale-state-college.jpg')",
       }
     },
   },
