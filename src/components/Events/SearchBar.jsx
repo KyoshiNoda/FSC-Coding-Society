@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchBar() {
   return (
-    <div className="mx-11">
+    <div className="mt-36 mx-11">
       <form>
         <label
           htmlFor="default-search"
