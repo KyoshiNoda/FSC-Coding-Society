@@ -4,7 +4,7 @@ function EventItem(props) {
   return (
     <div className="bg-green-600 rounded h-40 text-white">
         <div className="flex justify-center text-2xl font-bold">Title</div>
-        <div>
+        <div className='mt-auto'>
             {props.text}
             <div className="flex justify-center">
             <a href = "#test1">

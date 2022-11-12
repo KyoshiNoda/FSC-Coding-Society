@@ -11,9 +11,7 @@ function Events() {
       <Navbar />
       <SearchBar />
       <div className="flex flex-col gap-y-11 m-11">
-        <div>
-         <MainEvent title = "Main Event Title" text = {lorem}/>
-        </div>
+        <MainEvent title = "Main Event Title" text = {lorem}/>
         
         <div className="flex gap-7">
           <EventItem text = {lorem}/>
