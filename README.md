@@ -1,5 +1,5 @@
 # ACM Website
-Currently building the ACM FSC Website
+Currently building the FSC Coding Society Website
 Tech Stack
 ## Front End
 - React
