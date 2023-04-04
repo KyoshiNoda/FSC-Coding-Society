@@ -5,7 +5,7 @@ function BenefitsBox() {
     <div className='flex justify-center'>
         <div className='text-lg bg-green-900 text-white font-bold w-96 rounded'>
             <div className='text-center'>
-                Benefits of ACM
+                Benefits of Coding Society
                 <hr/>
             </div>
             <BenefitsList/>

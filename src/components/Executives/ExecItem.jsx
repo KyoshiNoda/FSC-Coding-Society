@@ -1,7 +1,7 @@
 import React from "react";
 function ExecItem(props) {
   return (
-    <div className="bg-green-500 max-w-sm rounded overflow-hidden shadow-lg">
+    <div className="bg-green-500 w-1/6 rounded overflow-hidden shadow-lg">
       <div className="flex justify-center">
       <img className="w-1/2" src={props.picture} alt="exec" />
       </div>

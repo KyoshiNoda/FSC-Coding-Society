@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../imgs/acmctc-logo.png';
+import logo from '../../imgs/FarmingdaleCodingSociety2.png';
 function Logo() {
   return (
     <a href = "/">
@@ -9,10 +9,10 @@ function Logo() {
       </div>
       <div className='md:flex-col'>
         <div>
-          <span className="font-semibold text-4xl tracking-tight">ACM</span>
+          <span className="font-semibold text-4xl tracking-tight">FSC Coding</span>
         </div>
         <div>
-          <span className="font-semibold text-4xl tracking-tight">FSC</span>
+          <span className="font-semibold text-4xl tracking-tight">Society</span>
         </div>
       </div>
     </div>
