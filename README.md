@@ -1,4 +1,4 @@
-# ACM Website
+# FSC Coding Society Website
 Currently building the FSC Coding Society Website
 Tech Stack
 ## Front End
